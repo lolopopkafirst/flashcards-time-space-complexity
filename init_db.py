@@ -71,11 +71,4 @@ class AlgoManager:
 # --- Example Usage ---
 if __name__ == "__main__":
     vault = AlgoManager()
-
-    # Log a successful guess
-    vault.add_solution(True, "Binary Search", "low, high = 0, len(n)...", "O(log n)", "O(1)")
-
-    # Log a missed guess
-    vault.add_solution(False, "Merge Sort", "def merge()...", "O(n log n)", "O(n)", "Forgot that merge sort isn't in-place usually.")
-
     vault.get_stats()
