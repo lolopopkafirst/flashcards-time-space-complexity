@@ -6,7 +6,7 @@ import random
 st.set_page_config(page_title="AlgoMaster", page_icon="🧠", layout="centered")
 
 # --- СПИСОК СЛОЖНОСТЕЙ ---
-COMPLEXITIES = ["O(1)", "O(log n)" , "O(log(m * n))", "O(n)", "O(n log n)", "O(n * k)", "O(n^2)", "O(2^n)", "O(n!)"]
+COMPLEXITIES = ["O(1)", "O(log n)" , "O(log(n * k))", "O(n)", "O(n + k)" ,"O(n log n)", "O(n log m)" , "O(n * k)", "O(n^2)", "O(2^n)", "O(n!)"]
 
 # --- РАБОТА С БАЗОЙ ДАННЫХ ---
 def get_db():
