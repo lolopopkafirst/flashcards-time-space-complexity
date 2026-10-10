@@ -73,7 +73,7 @@ if page == "➕ Add card":
             st.error("Error write title and code!")
 
 #   trainer  
-elif page == "🎮 Trainer":
+elif page == "🎮 Training":
     st.title("🎯 Algo")
     
     # Regimes
