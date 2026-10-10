@@ -107,7 +107,7 @@ elif page == "🎮 Training":
     if 'current_problem' in st.session_state and st.session_state['current_problem']:
         title, code, correct_t, correct_s = st.session_state['current_problem']
         
-        st.subheader(f"📝 Задача: {title}")
+        st.subheader(f"📝 Problem: {title}")
         st.code(code, language='python') 
     
         col1, col2 = st.columns(2)
