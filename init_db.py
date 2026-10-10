@@ -68,7 +68,6 @@ class AlgoManager:
         good = cursor.fetchone()[0]
         
 
-# --- Example Usage ---
 if __name__ == "__main__":
     vault = AlgoManager()
     vault.get_stats()
